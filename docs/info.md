@@ -15,7 +15,7 @@ This design implements a True Random Number Generator (TRNG) using eight current
 
 | Block | Count | Description |
 |---|---|---|
-| Current-Starved Ring VCO | 7x | 5-stage ring oscillator, intentionally mismatched sizing |
+| Current-Starved Ring VCO | 8x | 5-stage ring oscillator, intentionally mismatched sizing |
 | Output Buffer | 8x | 4-stage inverter chain, squares up VCO output |
 | CMOS XOR Gate | 7x | Full custom 8-transistor static CMOS XOR |
 | TSPC D Flip-Flop | 1x | 11-transistor true single-phase clock DFF |
